@@ -1,0 +1,125 @@
+/* Cài đặt chung */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 30px;
+}
+
+nav {
+    float: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 8px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #ff0000;
+}
+
+/* Banner */
+.banner {
+    background-image: url("banner.jpg");
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.banner h1 {
+    font-size: 40px;
+}
+
+/* About */
+.about {
+    padding: 50px 0;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    line-height: 1.5;
+}
+
+/* News */
+.news {
+    padding: 50px 0;
+}
+
+.news h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    margin-bottom: 30px;
+}
+
+.news-image {
+    float: left;
+    width: 150px;
+    margin-right: 20px;
+}
+
+.news-image img {
+    width: 100%;
+    height: auto;
+}
+
+.news-content {
+    overflow: hidden;
+}
+
+.news-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.news-content p {
+    margin-bottom: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: left;
+}
